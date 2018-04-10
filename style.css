@@ -1,80 +1,57 @@
 body {
   font-family: Helvetica, arial, sans-serif;
   background-color: rgb(235, 240, 176);
+  color: #2f4f4f;
+  line-height: 1.6em;
+  padding: 25px;
+  text-transform: uppercase;
 }
 
 p {
-  color: #2f4f4f;
-  line-height: 1.6em;
   font-size: 1.1em;
-  margin: 26px 100px 10px 70px;
-  padding: 8px;
 }
 
 h1 {
   display: inline-block;
   font-weight: 400;
-  color: #2f4f4f;
-  font-style: normal;
-  line-height: 1.6em;
-  margin: 23px 10px 10px 75px;
 }
 
 h3 {
-  color: #2f4f4f;
   font-weight: 300;
-  font-style: normal;
   font-size: 18px;
-  text-transform: none;
-  text-decoration: none;
   margin: auto;
 }
 
 nav ul {
   float: right;
+  margin: 10px;
 }
 
 nav li {
   display: inline-block;
+  padding: 10px;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 img {
   width: 400px;
 }
 
-nav a {
-  letter-spacing: 8px;
-  line-height: 1.6em;
-  font-weight: 300;
-  font-size: 15px;
-  text-decoration: none;
-  margin: 24px 0 0 80px;
-}
-
 .container {
-  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 10px;
 }
 
-.row {
-  padding-left: 13px;
-  margin-left: 13px;
-}
-
-.digiwork {
+.portfolio-item {
   display: inline-block;
-  vertical-align: top;
-  cursor: pointer;
   text-align: center;
-  margin: 10px 50px 10px -40px;
-  padding: 20px;
-}
-
-.prototype {
-  display: inline-block;
-  vertical-align: top;
-  cursor: pointer;
-  text-align: center;
-  margin: 10px 50px 10px -40px;
-  padding: 20px;
+  flex-grow: 1;
+  padding: 5px;
 }
